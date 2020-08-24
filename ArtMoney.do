@@ -28,11 +28,11 @@ newey  d1.lnart d1.lneqcg l1.d1.lneqcg d1.lninc d1.ineq, lag(1)
 
 * TABLE 2
 use Series1908.dta, clear
-vecrank lnart lneq, lags(2) trend(constant) max 
-vecrank lnart lneqcg, lags(2) trend(constant) max
-vecrank lnart lngdp, lags(2) trend(constant) max
-vecrank lnart lninc, lags(2) trend(constant) max
-vecrank lnart lntop, lags(2) trend(constant) max
+vecrank lnart lneq, lags(2) trend(constant) max levela
+vecrank lnart lneqcg, lags(2) trend(constant) max levela
+vecrank lnart lngdp, lags(2) trend(constant) max levela
+vecrank lnart lninc, lags(2) trend(constant) max levela
+vecrank lnart lntop, lags(2) trend(constant) max levela
 
 ******
 
